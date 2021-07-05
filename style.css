@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    height:auto;
+    border-bottom:1px solid rgb(21, 43, 75);
+    background-color: rgb(21, 43, 75);
+}
+
+a{
+    text-transform: uppercase;
+}
+a:hover{
+    font-weight: bolder;
+}
+.banner{
+    background-color: rgb(21, 43, 75);
+    min-width: none;
+}
+
+.footer{
+    background-color: rgb(21, 43, 75);
+}
+@media screen and (max-width:  768px) {
+    .banner{
+        height:25rem;
+        
+    }
+    
+   img{
+       width:8rem;
+       height: 8rem;
+       float: left;
+       margin-left: -10rem;
+       margin-top: -5rem;
+   }
+   .banners .about{
+    position: absolute;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10rem;
+    margin-left:-10rem;
+   }
+   .about h4{
+       font-size: 20px;
+   }
+   .about p{
+       font-size: 15px;
+   }
+   .about footer{
+       margin-top:-1rem;
+   }
+   
+}
